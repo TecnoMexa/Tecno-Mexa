@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TECNO MEXA</title>
+
+<style>
+body{margin:0;font-family:Arial;background:#0b0b0b;color:white;}
+header{background:linear-gradient(90deg,#000,#2d0040);text-align:center;padding:25px;}
+h1{color:gold;}
+.tabs{display:flex;justify-content:center;background:#111;}
+.tabs button{background:none;border:none;color:white;padding:15px 30px;cursor:pointer;font-size:18px;}
+.tabs button:hover{background:#222;color:gold;}
+.tabcontent{display:none;padding:30px;text-align:center;animation:fade .5s;}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.card{background:#1a1a1a;border-radius:12px;padding:20px;margin:15px;display:inline-block;width:260px;box-shadow:0 0 15px black;}
+.card img{width:220px;height:auto;border-radius:10px;margin-bottom:10px;}
+.price{color:gold;font-size:18px;}
+h2{color:gold;margin-top:40px;}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;padding:15px;border-radius:50%;color:white;text-decoration:none;font-size:22px;}
+footer{background:#111;text-align:center;padding:20px;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🎮 TECNO MEXA</h1>
+<p>Reparamos, limpiamos y damos vida a tus consolas</p>
+</header>
+
+<div class="tabs">
+<button onclick="openTab('ps')">PlayStation</button>
+<button onclick="openTab('xbox')">Xbox</button>
+<button onclick="openTab('nintendo')">Nintendo</button>
+</div>
+
+<!-- PLAYSTATION -->
+<div id="ps" class="tabcontent">
+
+<h2>Consolas PlayStation</h2>
+
+<div class="card">
+<img src="imagenes/ps5.jpg">
+<h3>PlayStation 5</h3>
+<p>FAT / Digital / Slim</p>
+<p class="price">Limpieza $500 MXN</p>
+</div>
+
+<div class="card">
+<img src="imagenes/ps4.jpg">
+<h3>PlayStation 4</h3>
+<p>FAT / Slim / Pro</p>
+<p class="price">Limpieza $400 MXN</p>
+</div>
+
+<div class="card">
+<img src="imagenes/ps3.jpg">
+<h3>PlayStation 3</h3>
+<p>FAT / Slim / Super Slim</p>
+<p class="price">Limpieza $350 MXN</p>
+</div>
+
+<h2>Controles PlayStation</h2>
+
+<div class="card">
+<img src="imagenes/Sense.jpg">
+<h3>DualSense PS5</h3>
+<p>Joystick Normal $350</p>
+<p>Joystick Magnético $600</p>
+<ul>
+<li>Gatillos</li>
+<li>Botones</li>
+<li>Batería</li>
+<li>Puerto carga</li>
+</ul>
+</div>
+
+<div class="card">
+<img src="imagenes/shock.jpg">
+<h3>DualShock 4</h3>
+<p>Joystick Normal $350</p>
+<p>Joystick Magnético $600</p>
+</div>
+
+<div class="card">
+<img src="imagenes/shock3.jpg">
+<h3>DualShock 3</h3>
+<p>Joystick Normal $300</p>
+<p>Limpieza $250</p>
+</div>
+
+</div>
+
+<!-- XBOX -->
+<div id="xbox" class="tabcontent">
+
+<h2>Consolas Xbox</h2>
+
+<div class="card">
+<img src="imagenes/xboxseries.jpg">
+<h3>Xbox Series X / S</h3>
+<p class="price">Limpieza $500 MXN</p>
+</div>
+
+<div class="card">
+<img src="imagenes/xboxone.jpg">
+<h3>Xbox One</h3>
+<p>FAT / S / X</p>
+<p class="price">Limpieza $400 MXN</p>
+</div>
+
+<div class="card">
+<img src="imagenes/xbox360.jpg">
+<h3>Xbox 360</h3>
+<p>FAT / Slim / E</p>
+<p class="price">Limpieza $350 MXN</p>
+</div>
+
+<h2>Controles Xbox</h2>
+
+<div class="card">
+<img src="imagenes/controlseries.jpg">
+<h3>Control Xbox Series</h3>
+<p>Joystick Normal $350</p>
+<p>Joystick Magnético $600</p>
+</div>
+
+<div class="card">
+<img src="imagenes/control360.jpg">
+<h3>Control Xbox 360</h3>
+<p>Joystick $300</p>
+<p>Limpieza $250</p>
+</div>
+
+</div>
+
+<!-- NINTENDO -->
+<div id="nintendo" class="tabcontent">
+
+<h2>Consolas Nintendo</h2>
+
+<div class="card">
+<img src="imagenes/nintendo.jpg">
+<h3>Nintendo Switch</h3>
+<p>Normal / OLED / Lite</p>
+<p class="price">Limpieza $400 MXN</p>
+</div>
+
+<h2>Controles Nintendo</h2>
+
+<div class="card">
+<img src="imagenes/joycon.jpg">
+<h3>Joy-Con</h3>
+<p>Joystick Normal $300</p>
+<p>Joystick Magnético $550</p>
+<p>Cambio de riel / flex / batería</p>
+</div>
+
+<div class="card">
+<img src="imagenes/procontroller.jpg">
+<h3>Pro Controller</h3>
+<p>Joystick $350</p>
+<p>Joystick Magnético $600</p>
+<p>Limpieza $300</p>
+</div>
+
+</div>
+
+<a class=
+"whatsapp"href="https://wa.me/5215651268776?text=Hola%20vi%20tu%20pagina%20TecnoMexa"
+target="_blank">
+📲 WhatsApp
+</a>
+<footer>
+<p>© 2026 TECNO MEXA | Ixtapaluca Estado de México</p>
+</footer>
+
+<script>
+function openTab(tab){
+document.querySelectorAll(".tabcontent").forEach(t=>t.style.display="none");
+document.getElementById(tab).style.display="block";
+}
+openTab("ps");
+</script>
+
+</body>
+</html>
